@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='global.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login-page-laptop.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400;700&display=swap" />
+</head>
+<body>
+    <div class="login-page-laptop">
+        <div class="navbar1">
+            <div class="heading2">CommentSensei</div>
+            <div class="buttons-container3">
+                <div class="text-button4">Sign Up</div>
+                <div class="button6">
+                    <div class="text-button4">Login</div>
+                </div>
+            </div>
+            <div class="buttons-container4">
+                <div class="text-button4">Home</div>
+                <div class="text-button4">Careers</div>
+                <div class="text-button4">About</div>
+                <div class="text-button4">Security</div>
+            </div>
+        </div>
+        <div class="login">
+            <img class="abstract-design-icon1" alt="" src="./static/logos/abstract-design3.svg" />
+            <div class="text-container1">
+                <div class="heading3">Login</div>
+                <div class="paragraph1">
+                    Welcome back! Please log in to access your account.
+                </div>
+            </div>
+            <div class="form1">
+                <form action="/login" method="post">
+                    <div class="container4">
+                        <div class="input-field4">
+                            <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                        </div>
+                        <div class="input-field5">
+                            <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+                            <img class="icon4" alt="" src="./static/logos/icon10.svg" />
+                        </div>
+                    </div>
+                    <div class="text-button8">Forgot Password?</div>
+                    <div class="container5">
+                        <button type="submit" class="button7">
+                            <div class="text13">Login</div>
+                        </button>
+                        <div class="button8">
+                            <div class="text13">Sign Up</div>
+  
+                          </div>
+                          <div class="sub-container2">
+                            <div class="container6">
+                              <div class="line2"></div>
+                              <div class="text-button4">Or Continue with</div>
+                              <div class="line2"></div>
+                            </div>
+                            <div class="buttons-container5">
+                              <div class="icon-container3">
+                                <div class="button9">
+                                  <img class="icon5" alt="" src="./static/logos/icon11.svg" />
+                                </div>
+                              </div>
+                              <div class="icon-container3">
+                                <div class="button9">
+                                  <img class="icon5" alt="" src="./static/logos/icon12.svg" />
+                                </div>
+                              </div>
+                              <div class="icon-container3">
+                                <div class="button9">
+                                  <img class="icon5" alt="" src="./static/logos/icon13.svg" />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </body>
+              </html>

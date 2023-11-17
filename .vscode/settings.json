@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project_name": "commentsensei.",
+    "id": "654a5569cf48d765b515769e",
+    "framework": "html-css",
+    "typescript": false,
+    "path": "public/",
+    "componentsPath": "c:\\Users\\aaash\\Desktop\\project\\src\\components",
+    "screensPath": "c:\\Users\\aaash\\Desktop\\project\\src\\pages",
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case"
+  }
+}

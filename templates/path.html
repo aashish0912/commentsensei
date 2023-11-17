@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='global.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='path.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400;700&display=swap" />
+</head>
+<body>
+    <div class="login-page-laptop">
+        <div class="navbar1">
+            <div class="heading18">CommentSensei</div>
+            <div class="buttons-container4">
+            </div>
+            <div class="buttons-container5">
+                <div class="text8">Home</div>
+                <div class="text8">Careers</div>
+                <div class="text8">About</div>
+                <div class="text8">Security</div>
+            </div>
+        </div>
+        <div class="login">
+            <img class="abstract-design-icon3" alt="" src="./static/logos/abstract-design31.svg" />
+            <div class="text-container8">
+                <div class="heading19">CommentSensei</div>
+                <div class="paragraph18">We Welcome You To The Future Of Content Creation</div>
+            </div>
+            <div class="form">
+                <form action="/getsuggestions" method="post" id="analysisForm">
+                    <div class="container18">
+                        <div class="input-field">
+                            <input type="text" id="videoId" name="video_id" placeholder="Enter Video ID" required>
+                        </div>
+                    </div>
+                    <div class="container19">
+                        <div class="button14">
+                            <button type="submit" class="text11" id="analyseButton">Analyse</button>
+                        </div>
+                        <div class="sub-container7">
+                            <div class="container20">
+                                <div class="line13"></div>
+                                <div class="text8">Or Continue with</div>
+                                <div class="line13"></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
